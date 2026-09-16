@@ -1,0 +1,38 @@
+{
+  "action_counts": {
+    "expand_and_refresh": 82,
+    "monitor": 13069,
+    "refresh": 8207,
+    "refresh_and_review_ctr": 6655,
+    "refresh_and_review_engagement": 1987
+  },
+  "confidence_counts": {
+    "high": 3576,
+    "low": 15000,
+    "medium": 11424
+  },
+  "high_confidence_rows": 3576,
+  "intended_use": "human review prioritization and decision-support",
+  "not_a_claim": "not causal, not automatic publishing, not a future traffic guarantee",
+  "reason_code_counts": {
+    "ctr_review_candidate": 9759,
+    "declining_with_demand": 13152,
+    "engagement_review_candidate": 6508,
+    "general_refresh_review": 9117,
+    "low_ctr_visible_page": 9759,
+    "low_engagement_visible_page": 6508,
+    "model_decline_risk": 8459,
+    "page_one_decay_risk": 7076,
+    "stale_visible_page": 17,
+    "thin_visible_page": 82,
+    "visible_model_opportunity": 10653
+  },
+  "rows_scored": 30000,
+  "source": "outputs/refresh_queue.csv",
+  "top_20_actions": {
+    "refresh": 2,
+    "refresh_and_review_ctr": 17,
+    "refresh_and_review_engagement": 1
+  },
+  "top_score": 81.92846726727653
+}
